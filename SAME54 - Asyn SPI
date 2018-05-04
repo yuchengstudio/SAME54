@@ -1,6 +1,8 @@
 2018/5/4
 实现 Slaver SPI Asyn模式的功能
 firmware :  same54 spi slave demo_ok.zip
+strat配置文件：same54 spi slave demo.atstart
+studio 工程文件：same54spislavedemo0.cproj。
 调试记录
 a.通过START导入same54 spi slave demo.atstart文件，可以清晰看到 Master SPI(ETHERNET_SPI), Slaver SPI(SPI_SLV),找到如下对应关系。
 PB26       <-->  PC05(SCK)
@@ -24,10 +26,17 @@ PB28       --->  PC06(_SS)
 	
   
   备注：这段代码在PINMAX中设置PIN脚后会自动生成。
+  
+  ================================================================================
   关键是如何把操作_SS的这段代码如何添加进Master发送程序中去。
   
     gpio_set_pin_level(SPI_KSZ8851SNL_CS, false);
     spi_m_sync_transfer(&Ethernet_SPI, &xfer);
     gpio_set_pin_level(SPI_KSZ8851SNL_CS, true);
+  ================================================================================
+  调试辅助：
+  串口（tera term）会不停得打印出Master, Slaver接收到的数据。
+   
+    
   
   
