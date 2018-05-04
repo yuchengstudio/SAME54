@@ -1,3 +1,9 @@
 2018/5/4
 实现 Slaver SPI Asyn模式的功能
 firmware :  same54 spi slave demo_ok.zip
+
+
+PB26       <-->  PC05(SCK)
+PB27(MOSI) --->  PC07(MOSI)
+PB29(MISO) <---  PC04(MISO)
+PB28       --->  PC06(_SS)
