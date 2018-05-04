@@ -10,7 +10,7 @@ PB28       --->  PC06(_SS)
 要点：因为Master 是主动发的，所以不需要_SS信号, 但Slaver是被动的,需要_SS信号通知，该工程是实现SAME54自己的Master 与Slaver通信，所以Master的_SS信号
 需要额外添加，可以通过START的"PINMAX"找到相应的定义PB28被定义成了SPI_SS_A的输出。
 请留意driver_init.c文件中的如下代码：
-///
+	
 	gpio_set_pin_direction(SPI_KSZ8851SNL_CS, GPIO_DIRECTION_OUT);
 
 	gpio_set_pin_level(SPI_KSZ8851SNL_CS,
@@ -21,7 +21,7 @@ PB28       --->  PC06(_SS)
 	                   true);
 
 	gpio_set_pin_function(SPI_KSZ8851SNL_CS, GPIO_PIN_FUNCTION_OFF);
-///
+	
   
   备注：这段代码在PINMAX中设置PIN脚后会自动生成。
   关键是如何把操作_SS的这段代码如何添加进Master发送程序中去。
