@@ -1,3 +1,14 @@
 2018/5/4
 实现 Slaver SPI Asyn模式的功能
 firmware :  same54 spi slave demo_ok.zip
+
+====================================================================
+调试记录：
+a.在压缩文件中找到 same54 spi slave demo.atstart 文件，导入到start中可以找到 Master SPI(ETHERNET SPI), Slaver SPI(SPI_SLV)
+b.找到对应的接
+MASTER           SLAVER         
+PB26       <-->  PC05(SCK)
+PB27(MOSI) <-->  PC04(MISO)
+PB29(MISO) <-->  PC07(MOSI)
+                 PC06(_SS)
+打开工程
