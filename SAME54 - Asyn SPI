@@ -5,10 +5,13 @@ strat配置文件：same54 spi slave demo.atstart
 studio 工程文件：same54spislavedemo0.cproj。
 调试记录
 a.通过START导入same54 spi slave demo.atstart文件，可以清晰看到 Master SPI(ETHERNET_SPI), Slaver SPI(SPI_SLV),找到如下对应关系。
+
+Master           Slaver
 PB26       <-->  PC05(SCK)
 PB27(MOSI) --->  PC07(MOSI)
 PB29(MISO) <---  PC04(MISO)
 PB28       --->  PC06(_SS)
+
 要点：因为Master 是主动发的，所以不需要_SS信号, 但Slaver是被动的,需要_SS信号通知，该工程是实现SAME54自己的Master 与Slaver通信，所以Master的_SS信号
 需要额外添加，可以通过START的"PINMAX"找到相应的定义PB28被定义成了SPI_SS_A的输出。
 请留意driver_init.c文件中的如下代码：
