@@ -28,7 +28,8 @@ PB28       --->  PC06(_SS)
 	gpio_set_pin_function(SPI_KSZ8851SNL_CS, GPIO_PIN_FUNCTION_OFF);
 	
   
-  备注：这段代码在PINMAX中设置PIN脚后会自动生成。
+  备注：1.这段代码在PINMAX中设置PIN脚后会自动生成。
+        2.SPI_KSZ8851SNL_CS 会定义在atmel_start_pins.h文件中
   
   ================================================================================
   关键是如何把操作_SS的这段代码如何添加进Master发送程序中去。
