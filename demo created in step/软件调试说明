@@ -1,6 +1,6 @@
-  #include "atmel_start.h"
-#include <hal_gpio.h>
-#include <hal_delay.h>
+	#include "atmel_start.h"
+	#include <hal_gpio.h>
+	#include <hal_delay.h>
 /**
  * Example of using Master_SPI to write "Hello World" using the IO abstraction.
  */
