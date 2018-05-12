@@ -5,6 +5,7 @@
 
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_DMA/picture/master_spi_pin.png)
 
+工程中的led_switcher_main.c函数请用如下代码替代
 
 ```
 #include "atmel_start.h"
