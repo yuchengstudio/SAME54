@@ -33,13 +33,13 @@ int main(void)
 
 	gpio_set_pin_pull_mode(SW0, GPIO_PULL_UP);
 	
-	//Master SPI ��ʼ��
+	//Master SPI initialization
 	struct io_descriptor *io_spi_master;
 	spi_m_sync_get_io_descriptor(&Master_SPI, &io_spi_master);
 	spi_m_sync_enable(&Master_SPI);
 	//io_write(io, example_Master_SPI, 12);
 	
-	//Slaver SPI ��ʼ��
+	//Slaver SPI initialization
 	struct io_descriptor *io_spi_slaver;
 	spi_s_async_get_io_descriptor(&Slaver_SPI, &io_spi_slaver);
 
@@ -113,14 +113,14 @@ int main(void)
 
 	gpio_set_pin_pull_mode(SW0, GPIO_PULL_UP);
 	
-	//Master SPI ?????
+	//Master SPI initialization
 	struct io_descriptor *io_spi_master;
 	spi_m_async_get_io_descriptor(&Master_SPI, &io_spi_master);
 	spi_m_async_register_callback(&Master_SPI, SPI_M_ASYNC_CB_XFER, (FUNC_PTR)complete_cb_Master_SPI);
 	spi_m_async_enable(&Master_SPI);
 	//io_write(io, example_Master_SPI, 12);
 	
-	//Slaver SPI ?????
+	//Slaver SPI initialization
 	struct io_descriptor *io_spi_slaver;
 	spi_s_async_get_io_descriptor(&Slaver_SPI, &io_spi_slaver);
 
