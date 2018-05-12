@@ -1,6 +1,19 @@
 目标说明：
 Master 与 slaver通信实验
 ```
+硬件平台：Atmel SAME54Xplained PRO
+硬件连接：
+Master    <--> Slave
+PB26(SCK) <--> PC05(SCK)
+
+PB27(MOSI) ---> PC07(MOSI)
+
+PB29(MISO) <--- PC04(MISO)
+
+PB28       ---> PC06(_SS)
+
+```
+```
 工程1：LED switcher_print_SPI.atzip 
 描述：master SPI采用 syn模式， slave SPI采用asyn模式，收发成功
 main主程序请用如下代码替换：
