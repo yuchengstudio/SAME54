@@ -21,6 +21,7 @@ int main(void)
 
 		gpio_toggle_pin_level(LED0);
 		
+		//add SPI_DMA TX example
 		Master_SPI_example();
 
 		do {
