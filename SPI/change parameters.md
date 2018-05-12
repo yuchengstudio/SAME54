@@ -18,3 +18,5 @@ All functions available HAL layer can be used from application firmware. To chan
 
 int32_t spi_m_async_set_baudrate(struct spi_m_async_descriptor *spi, const uint32_t baud_val)
 ```
+
+
