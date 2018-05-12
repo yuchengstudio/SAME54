@@ -3,6 +3,9 @@
 
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_DMA/picture/master_dma_config.png)
 
+![image](https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_DMA/picture/master_spi_pin.png)
+
+
 ```
 #include "atmel_start.h"
 #include <hal_gpio.h>
