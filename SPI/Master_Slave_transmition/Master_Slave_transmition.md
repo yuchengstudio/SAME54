@@ -243,7 +243,7 @@ int main(void)
 ```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_sucess.jpg)
 ![image](https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_M_P.jpg)
-![image]https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_S_P.jpg
+![image](https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_S_P.jpg)
 
 
 
