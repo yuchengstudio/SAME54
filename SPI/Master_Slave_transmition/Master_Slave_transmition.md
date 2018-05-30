@@ -161,3 +161,15 @@ int main(void)
 	}
 }
 ```
+
+```
+工程3：LED switcher_0530_master_asyn_read_verify.atzip
+描述：在LED switcher_print_SPI.atzip工程的基础上修改应用程序led_switcher_main.c实现如下功能
+master SPI采用 syn模式，slave SPI采用asyn模式，master读数据，slaver响应读。
+main主程序请用如下代码替换：
+```
+
+
+
+
+
