@@ -242,7 +242,14 @@ int main(void)
 注意：要修改默认的时钟参数才能Master读数据成功
 ```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_sucess.jpg)
+```
+修改MCU的主SPI时钟参数
+```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_M_P.jpg)
+
+```
+修改MCU的从SPI时钟参数
+```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD/SPI/Master_Slave_transmition/picture/SPI_S_P.jpg)
 
 
