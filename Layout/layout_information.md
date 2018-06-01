@@ -1,4 +1,4 @@
-# 1pakeage noted information
+# 1 pakeage noted information
 
 SAME5X/D5X系列单片机会有WLCSP的封装类型，layout时需要特别注意，可以参考如下文档及链接
 ```
