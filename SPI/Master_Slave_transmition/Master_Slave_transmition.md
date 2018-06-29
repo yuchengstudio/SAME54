@@ -18,6 +18,7 @@ PB28       ---> PC06(_SS)
 描述：master SPI采用 syn模式， slave SPI采用asyn模式，收发成功
 main主程序请用如下代码替换：
 ```
+https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition/LED%20switcher_print_SPI.atzip
 
 ```
 #include "atmel_start.h"
