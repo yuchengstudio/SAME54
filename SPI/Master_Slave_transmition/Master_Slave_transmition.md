@@ -101,11 +101,13 @@ master SPI发送，slaver SPI接收：每按一次SW0按键，LEO0翻转一次�
 https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition/LEDswitcher_print_SP_12M_SCK.zip
 
 ```
-注意事项：请开启advanced configuration, 并选择clock phase 为：sample input on trailing edge, 否则接收数据会发送错位现象。
+注意事项1：请开启advanced configuration, 并选择clock phase 为：sample input on trailing edge, 否则接收数据会发送错位现象。
 ```
 ![images](https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition/pictures/SPI_commnication_001.jpg)
-
-
+```
+注意事项2：关于如何配置系统时钟到120M, 以及如何将120时钟配给外设使用，请关注如下链接文章说明：
+```
+https://github.com/yuchengstudio/SAMD51/blob/master/aplication_note/%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%92%9F%E5%BA%94%E7%94%A8.md
 
 
 ## 工程3 
