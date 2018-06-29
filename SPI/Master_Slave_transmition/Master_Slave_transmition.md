@@ -13,6 +13,8 @@ PB29(MISO) <--- PC04(MISO)
 PB28       ---> PC06(_SS)
 
 ```
+
+## 工程1：建立SPI主从通信。
 ```
 工程1：LED switcher_print_SPI.atzip 
 描述：master SPI采用 syn模式， slave SPI采用asyn模式，收发成功
@@ -85,6 +87,8 @@ int main(void)
 }
 
 ```
+
+## 工程2 建立12M高速SPI通信。
 ```
 工程2：LED switcher_print_SPI3.atzip 
 描述：master SPI采用 syn模式， slave SPI采用asyn模式，提高内核时钟到120M,同时SPI时钟调整到12M, 
@@ -104,6 +108,7 @@ https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition
 
 
 
+## 工程3 
 ```
 工程3：LED switcher_0511_master_asyn_verify.atzip
 描述：master SPI采用 asyn模式，slave SPI采用asyn模式，SPImaster发送有数据，但slave接收不到数据，中断也没有进。
