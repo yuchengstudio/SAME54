@@ -17,7 +17,8 @@ PB28       ---> PC06(_SS)
 工程1：LED switcher_print_SPI.atzip 
 描述：master SPI采用 syn模式， slave SPI采用asyn模式，收发成功
 1.main主程序请用如下代码替换：
-2.操作说明：每按一次SW0按键，LEO0翻转一次，在串口输出 hello world字符，同时执行一次Master SPI写操作，Slaver SPI读操作。可以在debug环境下查看slaver spi的读缓存器 example_Master_SPI_slaver[] 与 Master SPI 发送缓存example_Master_SPI[]是否一致。
+2.操作说明：每按一次SW0按键，LEO0翻转一次，在串口输出 hello world字符，同时执行一次Master SPI写操作，Slaver SPI读操作。
+可以在debug环境下查看slaver spi的读缓存器 example_Master_SPI_slaver[] 与 Master SPI 发送缓存example_Master_SPI[]是否一致。
 
 ```
 https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition/LED%20switcher_print_SPI.atzip
