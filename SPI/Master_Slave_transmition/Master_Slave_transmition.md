@@ -85,11 +85,27 @@ int main(void)
 }
 
 ```
+```
+工程2：LED switcher_print_SPI3.atzip 
+描述：master SPI采用 syn模式， slave SPI采用asyn模式，提高内核时钟到120M,同时SPI时钟调整到12M, 
+1.main主程序请用如下代码替换：
+2.操作说明：
+master SPI发送，slaver SPI接收：每按一次SW0按键，LEO0翻转一次，在串口输出 hello world字符，同时执行一次Slaver SPI写操作，Master SPI读操作。
+可以在debug环境下查看Master spi的读缓存器 example_Master_SPI[] 与 Slaver SPI example_Master_SPI_slaver[]是否一致。
+
+```
+https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition/LEDswitcher_print_SP_12M_SCK.zip
+
+```
+注意事项：请开启advanced configuration, 并选择clock phase 为：sample input on trailing edge, 否则接收数据会发送错位现象。
+```
+![images](https://github.com/yuchengstudio/SAME54/blob/master/SPI/Master_Slave_transmition/pictures/SPI_commnication_001.jpg)
+
 
 
 
 ```
-工程2：LED switcher_0511_master_asyn_verify.atzip
+工程3：LED switcher_0511_master_asyn_verify.atzip
 描述：master SPI采用 asyn模式，slave SPI采用asyn模式，SPImaster发送有数据，但slave接收不到数据，中断也没有进。
 main主程序请用如下代码替换：
 ```
