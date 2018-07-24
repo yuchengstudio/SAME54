@@ -4,7 +4,7 @@
  | 参考文献名字 | 链接 | 说明 |
  | --- | ----- | ----- | 
  | 1 | https://github.com/yuchengstudio/SAME54/blob/master/TCM/TCM_Linker.zip | 00306579 | 
- | tips | 
+ | tips | It defined the memory region for tcm in same54p20a_flash.ld file and put the function arm_fir_f32() in tcm section (.cmccfunc).||
  ```
  1.Currently there is no option to enable Cache in Atmel START GUI. 
  You need to do through direct register access.CMCC (Cortex M Cache Controller) can be enabled by setting CEN bit in CMCC.CTRL register.
