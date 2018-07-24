@@ -5,10 +5,9 @@
  | --- | ----- | ----- | 
  | 1 | https://github.com/yuchengstudio/SAME54/blob/master/TCM/TCM_Linker.zip |  | 
  | tips | 
- 
- <br/>1.Currently there is no option to enable Cache in Atmel START GUI. You need to do through direct register access.CMCC (Cortex M Cache Controller) can be enabled by setting CEN bit in CMCC.CTRL register.
- 
  ```
+ <br/>1.Currently there is no option to enable Cache in Atmel START GUI. You need to do through direct register access.CMCC (Cortex M Cache Controller) can be enabled by setting CEN bit in CMCC.CTRL register.
+
 Code snippet:
 
 void cmcc_enable(void)
