@@ -31,6 +31,14 @@ void SPI_0_example(void)
 }
 
 ```
-注意：在更改波特率之前需要关闭
+注意：<br/>1.在更改波特率之前需要关闭。
+      <br/>2.更改波特率的第二个参数计算方式
+      The argument 'baud_val' in function 'spi_m_dma_set_baudrate' represents the 'BAUD' register value which needs to be set.
+To calculate the 'BAUD' register value, please refer to the 'Synchronous Operating Mode' section of 'Table 33-2. Baud Rate Equations' in the SAME5x/D5x datasheet.
+	From that we can understand, BAUD = (fref/(2*fbaud))-1. Here 'fbaud' represents the 'baudtate' to be set.
+	In your case, BAUD = (12000000/(2*50000)) - 1
+	Please vary the 'fbaud' to calculate the 'BAUD' register value.
+
+
 
 
