@@ -92,8 +92,7 @@ int main(void)
 ```
 工程2：LED switcher_print_SPI3.atzip 
 描述：master SPI采用 syn模式， slave SPI采用asyn模式，提高内核时钟到120M,同时SPI时钟调整到12M, 
-1.main主程序请用如下代码替换：
-2.操作说明：
+1.操作说明：
 master SPI发送，slaver SPI接收：每按一次SW0按键，LEO0翻转一次，在串口输出 hello world字符，同时执行一次Slaver SPI写操作，Master SPI读操作。
 可以在debug环境下查看Master spi的读缓存器 example_Master_SPI[] 与 Slaver SPI example_Master_SPI_slaver[]是否一致。
 
