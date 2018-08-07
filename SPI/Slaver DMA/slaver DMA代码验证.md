@@ -7,7 +7,10 @@ https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/SAML21_SPI_
 
 
 ## 使用START产生最基本的SPI通信工程，用以验证SPI模块配置正确
-
+ | 步骤 | 链接 | 说明 |
+ | --- | ----- | ----- | 
+ | 1 | https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/reference/SAMD51P20A_SPI_SLAVER_DMA.rar |  | 
+ | tips | <br/>1.测试功能Master spi syn 模式发数据，Slaver spi asyn读数据 <br/>2.测试功能：Slaver spi asyn发数据；Master spi syn 读数据， <br/>3.xxx | | 
 
 ## 重要代码修改分析
 ```
