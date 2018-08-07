@@ -6,6 +6,7 @@
 https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/SAML21_SPI_Slave_DMA0%20(1).7z
 
 
+## 使用START产生最基本的SPI通信工程，用以验证SPI模块配置正确
 
 
 ## 重要代码修改分析
