@@ -1,5 +1,7 @@
 # 概述
 ## 本文目的
+<br/>1 reference
+<br/>2 00262810
    这篇文档主要目的是想实现SAMD51 MCU的Slaver SPI 的DMA通信，在作者写这篇文档时，“START”还没有支持这款芯片的slaver SPI DMA方式的通信，但能找到基于SAML21的一个例程，基于此，做相应代码的移植修改工作能实现Slaver SPI DMA的功能。
 
 参考代码：
