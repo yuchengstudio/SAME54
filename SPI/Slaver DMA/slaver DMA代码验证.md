@@ -18,7 +18,9 @@ https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/SAML21_SPI_
  | 2| 配置SPI_0为Master_DMA模式，验证通信结果|  | 
  |  | https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/reference/SAMD51P20A_SPI_SLAVER_DMA(1).rar |  | 
  | tips | <br/>1 请使用解压包下的 SAMD51P20A_SPI_SLAVER_DMA(1)\.atmel-start-backup 目录下的SAMD51P20A_SPI_SLAVER_DMA(1)_7工程。|  | 
- | 3 | 配置SPI_1为Slaver_DMA模式，验证通信结果|  | 
+ | 3 | 配置SPI_1为Slaver_DMA模式，验证通信结果|  |
+ | note | 在作者写这篇文字的时候，SAMD51还不能通过START来配置slaver spi的DMA模式，所以需要自己配置，如下步骤就是如何手动配置的过程|  | 
+ | 3.1 | 配置SPI_1为Slaver_DMA模式，验证通信结果|  | 
  
  ## 在“SAMD51P20A_SPI_SLAVER_DMA.rar”工程基础上使用START配置Master SPI DMA通信
  
