@@ -81,3 +81,69 @@ int main(void)
 }
 
 ```
+
+
+```
+Please find below the example for SPI DMA Slave. We are going to add this in future START release.
+
+Workaround:
+Configuration in START
+configure SPI module in HAL:Driver:SPI_Slave_Sync driver and configure one GPIO pin as a input Interrupt using start. Enable DMA and do required DMA configuration for transferring data from SPI slave data register to memory
+
+Connections on Hardware
+connect Master Slave select(SS) PIN to Slave Slave select(SS) pin and input interrupt GPIO. Slave select pin acts as interrupt to the MCU to understand the data transfer is completed by detection Low to High transition on SS pin if SS is Active low.
+
+Source Code
+#include <atmel_start.h>
+#include <hpl_dma.h>
+#include "driver_examples.h"
+
+#define CONF_SERCOM_2_RECEIVE_DMA_CHANNEL 1
+/* Buffer length to transfer/receive */
+#define BUFFER_LEN (12)
+
+extern DmacDescriptor _descriptor_section[DMAC_CH_NUM] ;
+extern DmacDescriptor _write_back_section[DMAC_CH_NUM] ;
+
+volatile uint8_t receiveComplete = 0;
+volatile uint8_t received_data_len = 0;
+
+static uint8_t string[BUFFER_LEN];
+
+/* callbacks */
+static void dma_transfer_done_rx(struct _dma_resource *const resource)
+{ receiveComplete = true; }
+static void dma_error_rx(struct _dma_resource *const resource)
+{ /* write error handling code here */ }
+static void button_on_PB07_pressed(void)
+{ received_data_len = (_descriptor_section[CONF_SERCOM_2_RECEIVE_DMA_CHANNEL].BTCNT.reg - _write_back_section[CONF_SERCOM_2_RECEIVE_DMA_CHANNEL].BTCNT.reg); }
+/* register callbacks */
+void register_dma_rx_callback(void)
+{ struct _dma_resource *resource_rx; _dma_get_channel_resource(&resource_rx, CONF_SERCOM_2_RECEIVE_DMA_CHANNEL); resource_rx->dma_cb.transfer_done = dma_transfer_done_rx; resource_rx->dma_cb.error = dma_error_rx; }
+/* SERCOM RX channel configuration */
+void Configure_Channel_rx()
+{ _dma_set_source_address(CONF_SERCOM_2_RECEIVE_DMA_CHANNEL, (uint32_t) & (((SercomSpi *)(SPI_1.dev.prvt))->DATA.reg)); _dma_set_destination_address(CONF_SERCOM_2_RECEIVE_DMA_CHANNEL, (uint32_t *)string); _dma_set_data_amount(CONF_SERCOM_2_RECEIVE_DMA_CHANNEL, (uint32_t)BUFFER_LEN); _dma_enable_transaction(CONF_SERCOM_2_RECEIVE_DMA_CHANNEL, false); /* callback */ register_dma_rx_callback(); /* Enable DMA transfer complete interrupt */ _dma_set_irq_state(CONF_SERCOM_2_RECEIVE_DMA_CHANNEL, DMA_TRANSFER_COMPLETE_CB, true); }
+int main(void)
+{
+/* Initializes MCU, drivers and middleware */
+atmel_start_init();
+ext_irq_register(PIN_PB07, button_on_PB07_pressed);
+Configure_Channel_rx();
+spi_s_sync_enable(&SPI_1);
+
+/* Replace with your application code */
+while (1) {
+}
+}
+
+The Start Project is attached here.
+This project contain 2 SPI one is in master mode(SERCOM0) and other is in slave mode(SERCOM2)
+
+Master SPI : driver : HAL:Driver:SPI_Master_DMA : SERCOM0
+Slave SPI : driver :HAL:Driver:SPI_Slave_Sync : SERCOM2
+
+External interrupt driver for sensing Slave select pin to understand the data transfer is finished from master SPI.
+
+Please ask the customer to use this.
+
+```
