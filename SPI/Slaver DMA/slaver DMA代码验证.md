@@ -16,7 +16,7 @@ https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/SAML21_SPI_
  | 2 | ![image](https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/reference/SPI_DMA_001.jpg) |  | 
  | tips | 在相应的断点处查看相应的数据buf是否接收到正确数据|  | 
  | 3 | https://github.com/yuchengstudio/SAME54/blob/master/SPI/Slaver%20DMA/reference/SAMD51P20A_SPI_SLAVER_DMA(1).rar |  | 
- | tips | <br/>1 请使用C:\Users\A18428\Desktop\hk test\SAMD51P20A_SPI_SLAVER_DMA(1)\SAMD51P20A_SPI_SLAVER_DMA(1)\.atmel-start-backup 目录下的SAMD51P20A_SPI_SLAVER_DMA(1)_7|  | 
+ | tips | <br/>1 请使用解压包下的 SAMD51P20A_SPI_SLAVER_DMA(1)\.atmel-start-backup 目录下的SAMD51P20A_SPI_SLAVER_DMA(1)_7工程。|  | 
  
  ## 在“SAMD51P20A_SPI_SLAVER_DMA.rar”工程基础上使用START配置Master SPI DMA通信
  
