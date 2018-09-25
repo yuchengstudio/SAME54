@@ -18,10 +18,19 @@
     
 
 # 3. 在windows命令行中调用python下载应用程序
-<br/>python 在2.xx 版本与 3.xx版本中会有一些差异，在本应用中主要涉及print函数。
-<br/>请在windos 命令行下敲入“python --version”查当前windows系统使用的python的版本，如图3.1所示
-![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20001.png)
+<br/>准备工作：将“asf4_e54_rtos_led_blink_fast.bin”，“asf4_e54_rtos_led_blink_slowly.bin”，“dlimage.py”，“dlimage_a.py”这4个文件copy在系统默认用户名的文件夹下,如图3.1， 图3.2所示
+![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20002.png)
 图3.1
+![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20003.png)
+图3.2
+
+<br/>python 在2.xx 版本与 3.xx版本中会有一些差异，在本应用中主要涉及print函数。
+<br/>请在windos 命令行下敲入“python --version”查当前windows系统使用的python的版本，如图3.3所示
+![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20001.png)
+图3.3
+
+<br/>在本系统中，windos系统默认调用的是python 3.6.4, 这个时候我们就需要使用“dlimage_a.py”这个函数。
+“https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/dlimage_a.py”
 
 
 
