@@ -9,6 +9,9 @@
 <br/>开发板：SAME54 Xplained.
     
 # 2. bootloader工程
+<br/>请使用Atmel studio7打开如下链接的工程：
+<br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/asf4_e54_uart_bootloader-simple-proto.7z
+
 
 
 
