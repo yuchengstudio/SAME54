@@ -20,7 +20,7 @@
 # 3. 在windows命令行中调用python下载应用程序
 <br/>python 在2.xx 版本与 3.xx版本中会有一些差异，在本应用中主要涉及print函数。
 <br/>请在windos 命令行下敲入“python --version”查当前windows系统使用的python的版本，如图3.1所示
-![image](https://githuhttps://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20001.png)
+![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20001.png)
 图3.1
 
 
