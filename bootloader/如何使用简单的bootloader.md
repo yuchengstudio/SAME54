@@ -37,6 +37,13 @@
 <br/>在本系统中，windos系统默认调用的是python 3.6.4, 这个时候我们就需要使用“dlimage_a.py”这个函数。
 “https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/dlimage_a.py”
 
+<br/>在window的系统命令行窗口输入“python dlimage_a.py -p 'YOUR COM PORT' -f asf4_e54_rtos_led_blink_fast.bin”命令
+<br/>note:
+<br/>1.确保bootloader工程已经下载到MCU里面。
+<br/>2.在启用python通过串口写程序之前，请复位当前的工程。
+<br/>3.请根据实际与开发板连接的串口替代'YOUR COM PORT', 比如我们开发板通过EDBG与电脑链接，虚拟的串口是COM4,那么命令就改成实际的命令
+<br/>        python dlimage_a.py -p COM4 -f asf4_e54_rtos_led_blink_fast.bin”
+
 
 
 
