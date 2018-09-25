@@ -19,6 +19,11 @@
 
 # 3. 在windows命令行中调用python下载应用程序
 <br/>准备工作：将“asf4_e54_rtos_led_blink_fast.bin”，“asf4_e54_rtos_led_blink_slowly.bin”，“dlimage.py”，“dlimage_a.py”这4个文件copy在系统默认用户名的文件夹下,如图3.1， 图3.2所示
+<br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/asf4_e54_rtos_led_blink_fast.bin
+<br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/asf4_e54_rtos_led_blink_slowly.bin
+<br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/dlimage.py
+<br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/dlimage_a.py
+
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20002.png)
 图3.1
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application%20%20003.png)
