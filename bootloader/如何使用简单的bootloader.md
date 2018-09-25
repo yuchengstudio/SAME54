@@ -41,8 +41,8 @@
 <br/>note:
 <br/>1.确保bootloader工程已经下载到MCU里面。
 <br/>2.在启用python通过串口写程序之前，请复位当前的工程。
-<br/>3.请根据实际与开发板连接的串口替代'YOUR COM PORT', 比如我们开发板通过EDBG与电脑链接，虚拟的串口是COM4,那么命令就改成实际的命令
-<br/>        python dlimage_a.py -p COM4 -f asf4_e54_rtos_led_blink_fast.bin”
+<br/>3.请根据实际与开发板连接的串口替代'YOUR COM PORT', 比如我们开发板通过EDBG与电脑链接，虚拟的串口是COM4,那么命令就改成实际的命令如下：
+``` python dlimage_a.py -p COM4 -f asf4_e54_rtos_led_blink_fast.bin” ```
 
 
 
