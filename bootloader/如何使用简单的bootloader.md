@@ -1,8 +1,18 @@
-1.打开windows 命令行窗口,使用如下命令：
-python dlimage.py -p COM4 -f asf4_e54_rtos_led_blink_fast.bin
-python dlimage.py -p (COM4) -f asf4_e54_rtos_led_blink_fast.bin
+* [1. 简介](#1-简介)
+* [2. 一级目录语法](#2-一级目录语法)  
+  * [2.1 二级目录语法](#21-二级目录语法)
+    * [2.1.1 三级目录语法](#211-三级目录语法)
 
-python dlimage.py -p EDBG Virtual COM port(COM4) -f asf4_e54_rtos_led_blink_fast.bin
+
+# 1. 简介
+
+# 2. 一级目录语法
+![images](https://github.com/yuchengstudio/Github-/blob/master/pictures/mulu_002.jpg)
 
 
-python dlimage.py -p (COM4) -f asf4_e54_rtos_led_blink_fast.bin
+## 2.1. 二级目录语法
+    请参照一级目录语法
+
+
+### 2.1.1. 三级目录语法
+    请参照一级目录语法
