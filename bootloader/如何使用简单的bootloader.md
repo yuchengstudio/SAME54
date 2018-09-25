@@ -1,6 +1,6 @@
 * [1. 简介](#1-简介)
 * [2. bootloader工程](#2-bootloader工程)  
-  * [2.1 二级目录语法](#21-二级目录语法)
+  * [2.1 bootloader工程剖析](#21-bootloader工程剖析)
 * [3. 在windows命令行中调用python下载应用程序](#3-在windows命令行中调用python下载应用程序)  
 
 
@@ -13,7 +13,7 @@
 <br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/asf4_e54_uart_bootloader-simple-proto.7z
 <br/>编译，下载bootloader代码到MCU里（SAME54 Xplained开发板使用EDBG口下载程序。）
 
-## 2.1. bootloader工程分析（可以先跳过这一节内容直接查看第3节应用）
+## 2.1. bootloader工程剖析（可以先跳过这一节内容直接查看第3节应用）
     请参照一级目录语法
     
 
