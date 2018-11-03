@@ -13,6 +13,9 @@
 <br/>https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/asf4_e54_uart_bootloader-simple-proto.7z
 <br/>编译，下载bootloader代码到MCU里（SAME54 Xplained开发板使用EDBG口下载程序。）
 
+<br/>请注意该工程使用的软件包是SAME54_DFP的1.0.67版本
+![image](https://github.com/yuchengstudio/SAME54/blob/master/bootloader/reference_file/bootloader_application_005.png)
+
 ## 2.1. bootloader工程剖析（可以先跳过这一节内容直接查看第3节应用）
     请参照一级目录语法
     
