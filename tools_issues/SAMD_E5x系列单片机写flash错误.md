@@ -9,10 +9,10 @@
 备注：如果是其他器件的型号，比如是ATSAMD51J20A，那只要打开相应的pack文件，并做相同的修改就行。
 ![images](https://github.com/yuchengstudio/SAME54/blob/master/tools_issues/reference/program_002.jpg)
 
+
 # 3.
 请在如图位置添加红色方框中的代码字段
 ![images](https://github.com/yuchengstudio/SAME54/blob/master/tools_issues/reference/program_003.jpg)
-
 备注：我用的是topyra这款软件打开pack包文件的，用记事本打开不方便阅读。
 ```
 <memory-segment name="AUX0" start="0x00804000" size="0x200" type="user_page" pagesize="16" rw="RW"/>
