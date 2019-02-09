@@ -14,7 +14,7 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 ## 4.1 在这个实验中，我们将使用外部扩展板IO1Xplained pro, 利用SAME54 xplained的ADC测量IO1Xplained pro的light sensor模拟量
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example.jpg)
 
-## 4.2 找到对应PB00对应的ADC通道
+## 4.2 在SAM E54 Xplained Pro User's Guide文档中找到对应PB00对应的ADC通道
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_002.png)
 
 
