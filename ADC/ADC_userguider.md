@@ -18,7 +18,7 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_002.png)
 
 ## 4.3 在START中添加ADC driver,根据实际硬件的链接（PB00作为ADC输入）配置ADC
-![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_003.png)
+![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_006.png)
 
 ## 4.4 将start生成的代码（ADC例子）移植到main函数中
 
