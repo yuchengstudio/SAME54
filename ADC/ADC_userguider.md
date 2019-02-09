@@ -27,5 +27,5 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_006.png)
 
 
-
+# 6.多路ADC数据采样
 
