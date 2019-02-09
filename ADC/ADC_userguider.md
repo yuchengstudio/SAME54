@@ -21,5 +21,6 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_expend_006.png)
 
 ## 4.4 将start生成的代码（ADC例子）移植到main函数中
+![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_expend_005.png)
 
 
