@@ -17,4 +17,7 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 ## 4.2 在SAM E54 Xplained Pro User's Guide文档中找到对应PB00对应的ADC通道
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_002.png)
 
+## 4.3 在START中添加ADC driver,根据实际硬件的链接（PB00作为ADC输入）配置ADC
+![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_003.png)
+
 
