@@ -32,3 +32,6 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 <br/>【实验目标】在5.的实验基础之上，添加一路ADC采样通道，比如将PB04作为增加的一路ADC输入。
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_007.png)
 
+## 6.1 在5.实验基础上添加修改ADC采样通道的代码
+
+![image](https://github.com/yuchengstudio/SAME54/blob/master/ADC/reference/ADC_example_008.png)
