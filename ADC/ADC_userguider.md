@@ -28,4 +28,4 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAM%20E54%20Xplained%20Pro%2
 
 
 # 6.多路ADC数据采样
-
+【说明】1.START ADC driver不支持ADC多通道采样的配置，如果实际应用中需要配置ADC多通道采样，需要在START生成的代码框架之上进行必要的通道修改。
