@@ -6,3 +6,6 @@ https://github.com/yuchengstudio/SAME54/blob/master/AD/reference/Atmel-42645-ADC
 
 # 3.Salesforce参考号：00348307
 
+# 4.使用START产生第一个ADC应用
+
+
