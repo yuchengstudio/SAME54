@@ -6,3 +6,6 @@ https://github.com/yuchengstudio/SAME54/blob/master/DMA/reference/Atmel%20START_
 
 # 3.DMA 介绍
 https://www.embedded.fm/blog/2017/2/20/an-introduction-to-dma
+
+# 4.DMA应用笔记
+https://github.com/yuchengstudio/SAME54/blob/master/DMA/reference/Atmel-42371-CPU-Usage-Demonstration-using-DMAC-Application_ApplicationNote_AT07685.pdf
