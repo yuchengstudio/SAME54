@@ -14,6 +14,14 @@
 
 <br/>SUPC BOD12_ENABLE API函数的
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_005.jpg)
+<br/>提示：如何快速找到你想要的API函数
+<br/>
+<br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_008.jpg)
+<br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_009.jpg)
+<br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_010.jpg)
+<br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_011.jpg)
+
+
 
 <br/>BOD12_ENABLE寄存器的操作，与操作结果演示
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_006.jpg)
