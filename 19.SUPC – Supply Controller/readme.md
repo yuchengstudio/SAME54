@@ -15,10 +15,16 @@
 <br/>SUPC BOD12_ENABLE API函数的
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_005.jpg)
 <br/>提示：如何快速找到你想要的API函数
-<br/>
+<br/>1.找到对应hri的函数库，对应的找到要访问的数据结构，比如这里的“Supc”。
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_008.jpg)
+
+<br/>2.通过数据结构的定义查看数据结构里到底有哪些寄存器可以访问，找到我们的目标寄存器，比如这里的“BOD12”
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_009.jpg)
+
+<br/>3.继续查看“BOD12”枚举变量里的数据枚举，找到我们需要访问的寄存器位，比如这里的ENABLE位，对应找到相应的宏定义：SUPC_BOD12_ENABLE
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_010.jpg)
+
+<br/>4.使用SUPC_BOD12_ENABLE这个宏定义在相应的软件库里找对应的操作函数，就能比较快找到你想要的操作函数了,☺
 <br/>![image](https://github.com/yuchengstudio/SAME54/blob/master/19.SUPC%20%E2%80%93%20Supply%20Controller/reference/BOD_011.jpg)
 
 
