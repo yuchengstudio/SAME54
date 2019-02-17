@@ -55,5 +55,7 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 ## 3.5外部复位电路
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__007.png)
 
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__008.png)
+
 
 
