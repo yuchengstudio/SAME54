@@ -20,4 +20,18 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAMD5X:E5X%20datasheet.pdf
 
 ## 3.2 芯片供电设计
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__002.png)
+```
+SAM D5x / E5x支持1.71V至3.63V的单电源或双电源供电。 必须对VDDIO和VDDANA施加相同的电压。 VDDIOB级别必须低于或等于VDDIO / VDDANA。
+当VDDIOB簇中的I / O焊盘复用为模拟焊盘时，VDDANA用于为I / O供电。
+如果VDDIOB电压不同于此，则使用此配置可能会导致电气冲突VDDIO / VDDANA。 如果应用程序有这样的要求，则需要为VDDIOB，VDDIO和
+VDDANA来自相同的电源，以确保它们始终处于相同的电压。
+
+内部电压调整器有4种不同模式
+1.线性模式：这种模式不需要外部的电感，当芯片及外设运行时，该模式为默认模式。
+2.开关模式（buck）:该模式我CPU内核及外设运行时，电源最有效的模式。
+3.低功耗(LP)模式: 当芯片进入待机（standby）模式运行时，电源运行在该模式。
+4.关机（shutdown）模式：当芯片工作在备用电源（backup）模式时,内部电压调整器关闭。
+
+在开关模式和线性模式之间选择可以通过软件即时完成，但电源的设计必须按照对应模式所使用的方式。
+```
 
