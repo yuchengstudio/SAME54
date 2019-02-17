@@ -36,6 +36,8 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 重要：【SUPC中的VREG寄存器的SEL位决定工作在linear模式还是buck模式】
 ```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__011.png)
+
+<br/>初始化流程如下图：
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__012.png)
 
 ## 3.3 芯片供电连接方式
