@@ -61,6 +61,12 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 ```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__008.png)
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__009.png)
+```
+上拉电阻可确保复位不会变低并无意中导致器件复位。增加了一个额外的电阻与开关串联，以安全地对滤波电容放电，
+即，在使滤波电容器短路时防止电流浪涌，这又会引起噪声尖峰这会对系统产生负面影响
+```
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__010.png)
+
 
 
 
