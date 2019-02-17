@@ -17,3 +17,7 @@ https://github.com/yuchengstudio/SAME54/blob/master/SAMD5X:E5X%20datasheet.pdf
 4.消除或减弱噪声也很重要为了避免它到达电源引脚，I / O引脚和晶体。
 
 ```
+
+## 3.2 芯片供电设计
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__002.png)
+
