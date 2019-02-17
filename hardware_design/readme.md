@@ -48,4 +48,12 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 <br/>*备注* 以上硬件供电连接的中的被动器件参数仅仅是个典型的例子，准确的数值需要参考数据手册中的电器参数说明
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__006.png)
 
+## 3.4外部模拟参考连接
+说明：如果在实际应用中需要连接外模模拟的参考，需要遵循下面的设计原则，如果使用的是芯片内部的参考，那么这一章节内容可以略过。
+
+
+## 3.5外部复位电路
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__007.png)
+
+
 
