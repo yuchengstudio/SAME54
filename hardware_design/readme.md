@@ -45,4 +45,6 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 <br/>模式3 带备份电源的供电模式
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__005.png)
 
+<br/>*备注*
+
 
