@@ -33,7 +33,9 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 4.关机（shutdown）模式：当芯片工作在备用电源（backup）模式时,内部电压调整器关闭。
 
 在开关模式和线性模式之间选择可以通过软件即时完成，但电源的设计必须按照对应模式所使用的方式。
+重要：【SUPC中的VREG寄存器的SEL位决定工作在linear模式还是buck模式】
 ```
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__011.png)
 
 ## 3.3 芯片供电连接方式
 模式1 开关电源模式或线性电源模式
