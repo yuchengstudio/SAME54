@@ -54,7 +54,11 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 
 ## 3.5外部复位电路
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__007.png)
-
+```
+使用外部复位功能时，将外部复位电路连接到RESET引脚，如下图所示。 如果不需要外部复位功能，则不需要电路：RESET引脚也可以
+保持未连接，或由应用电路在外部驱动低电平。如果不需要手动复位，也可以移除复位开关。 RESET引脚本身有一个
+内部上拉电阻，因此可选择添加任何外部上拉电阻
+```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__008.png)
 
 
