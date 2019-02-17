@@ -39,7 +39,6 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 模式1 开关电源模式或线性电源模式
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__003.png)
 
-
 <br/>模式2 线性电源模式
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__004.png)
 
