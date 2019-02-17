@@ -60,6 +60,7 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 内部上拉电阻，因此可选择添加任何外部上拉电阻
 ```
 ![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__008.png)
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/hardware_checklist__009.png)
 
 
 
