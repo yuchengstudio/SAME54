@@ -77,6 +77,12 @@ VDDANA来自相同的电源，以确保它们始终处于相同的电压。
 对于未使用的引脚，引脚的默认状态将提供最低的电流泄漏。对未使用的引脚进行任何配置以降低功耗
 ```
 
+## 3.7外部晶体引脚的配置
+![image](https://github.com/yuchengstudio/SAME54/blob/master/hardware_design/reference/Oscillator_configuration.jpg)
+```
+外部晶体的配置在I/O multiplexing and considerations章节的 other function 中找到相应说明。
+```
+
 
 
 
